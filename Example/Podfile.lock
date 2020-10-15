@@ -1,0 +1,16 @@
+PODS:
+  - AlertMenu (0.1.0)
+
+DEPENDENCIES:
+  - AlertMenu (from `../`)
+
+EXTERNAL SOURCES:
+  AlertMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlertMenu: 8e8ced224196136c9c404233808eb3961abec6a1
+
+PODFILE CHECKSUM: 53d7bec9988ce11966b1540cb8c54f203d379e31
+
+COCOAPODS: 1.8.4

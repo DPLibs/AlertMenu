@@ -1,0 +1,6 @@
+framework module Pods_AlertMenu_Tests {
+  umbrella header "Pods-AlertMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

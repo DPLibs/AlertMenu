@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlertMenu_Example' do
+  pod 'AlertMenu', :path => '../'
+
+  target 'AlertMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
