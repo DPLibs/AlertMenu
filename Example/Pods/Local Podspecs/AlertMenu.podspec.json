@@ -1,9 +1,9 @@
 {
   "name": "AlertMenu",
-  "version": "0.1.0",
-  "summary": "A short description of AlertMenu.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Dmitriy Polyakov/AlertMenu",
+  "version": "1.0.0",
+  "summary": "Alert menu",
+  "description": "Library for work with UIAlertControllerView",
+  "homepage": "https://github.com/DPLibs/AlertMenu",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "Dmitriy Polyakov": "dmitriyap11@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Dmitriy Polyakov/AlertMenu.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/DPLibs/AlertMenu.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "AlertMenu/Classes/**/*"
+  "source_files": "AlertMenu/**/*",
+  "swift_versions": "5.0",
+  "resource_bundles": {
+    "AlertMenu": [
+      "AlertMenu/Localization/*.lproj/*.strings"
+    ]
+  },
+  "swift_version": "5.0"
 }

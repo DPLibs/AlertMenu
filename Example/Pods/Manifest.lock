@@ -1,5 +1,5 @@
 PODS:
-  - AlertMenu (0.1.0)
+  - AlertMenu (1.0.0)
 
 DEPENDENCIES:
   - AlertMenu (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlertMenu: 8e8ced224196136c9c404233808eb3961abec6a1
+  AlertMenu: 2c91726e0d26de443f465ff6fa46cccc14de3850
 
 PODFILE CHECKSUM: 53d7bec9988ce11966b1540cb8c54f203d379e31
 

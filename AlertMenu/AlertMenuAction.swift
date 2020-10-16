@@ -19,11 +19,11 @@ public enum AlertMenuActionDefault: AlertMenuAction {
     public var title: String {
         switch self {
         case .cancel:
-            return AlertMenuLocalization.Cancel.localized //NSLocalizedString("Cancel", comment: "")
+            return AlertMenuLocalization.Cancel.localized
         case .ok:
-            return AlertMenuLocalization.Ok.localized//NSLocalizedString("Ok", comment: "")
+            return AlertMenuLocalization.Ok.localized
         case .confirm:
-            return AlertMenuLocalization.Confirm.localized //NSLocalizedString("Confirm", comment: "")
+            return AlertMenuLocalization.Confirm.localized
         case .refresh:
             return NSLocalizedString("Refresh", comment: "")
         case .proceed:

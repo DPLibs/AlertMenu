@@ -27,7 +27,9 @@ class ViewController: UIViewController, AlertMenuPresentable {
     }
     
     @objc private func tapBt() {
-        self.showAlertMenu(.okAlert(title: "This is OK alert", message: "Yes, this is OK alert"))
+        self.showAlertMenu(.okAlert(title: "This is OK alert", message: "Yes, this is OK alert", handler: { [weak self] in
+            self?.showAlertMenu(.confirmAlert(title: "This is CONFIRM alert", message: "The end"))
+        }))
     }
 
 }
