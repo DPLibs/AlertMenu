@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlertMenu: 2c91726e0d26de443f465ff6fa46cccc14de3850
+  AlertMenu: adbb665a8c5f321ca774ec4ff0c90daa53e433cc
 
 PODFILE CHECKSUM: 53d7bec9988ce11966b1540cb8c54f203d379e31
 

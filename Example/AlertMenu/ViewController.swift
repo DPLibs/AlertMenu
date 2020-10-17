@@ -18,7 +18,7 @@ class ViewController: UIViewController, AlertMenuPresentable {
         
         self.view.addSubview(self.exampleBt)
         self.exampleBt.translatesAutoresizingMaskIntoConstraints = false
-        self.exampleBt.setTitle("Examle", for: .normal)
+        self.exampleBt.setTitle("Example", for: .normal)
         self.exampleBt.addTarget(self, action: #selector(self.tapBt), for: .touchUpInside)
         NSLayoutConstraint.activate([
             self.exampleBt.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
@@ -28,7 +28,11 @@ class ViewController: UIViewController, AlertMenuPresentable {
     
     @objc private func tapBt() {
         self.showAlertMenu(.okAlert(title: "This is OK alert", message: "Yes, this is OK alert", handler: { [weak self] in
-            self?.showAlertMenu(.confirmAlert(title: "This is CONFIRM alert", message: "The end"))
+            AlertMenuLocalization.customBundle = Bundle.main
+            self?.showAlertMenu(.confirmAlert(title: "This is CONFIRM alert", message: "With custom Bundle", handler: { [weak self] in
+                AlertMenuLocalization.Proceed = "Proceed custom localize"
+                self?.showAlertMenu(.proceedAlert(title: "This is CONFIRM alert", message: "With custom string"))
+            }))
         }))
     }
 

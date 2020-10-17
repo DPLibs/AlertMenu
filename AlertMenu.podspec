@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.source_files = 'AlertMenu/**/*'
   s.swift_version = '5.0'
-  s.resource_bundle = { 'AlertMenu' => ['AlertMenu/Localization/*.lproj/*.strings'] }
+  s.resource_bundle = { 'Localization' => ['AlertMenu/Localization/*.lproj/*.strings'] }
 end

@@ -21,7 +21,7 @@
   "source_files": "AlertMenu/**/*",
   "swift_versions": "5.0",
   "resource_bundles": {
-    "AlertMenu": [
+    "Localization": [
       "AlertMenu/Localization/*.lproj/*.strings"
     ]
   },

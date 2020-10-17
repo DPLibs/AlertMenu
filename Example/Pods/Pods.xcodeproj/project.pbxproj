@@ -7,41 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0453C8213B5F69926C2CC6855E5B4B35 /* AlertMenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E318B94B713308F6C2EF55E4B0BEA /* AlertMenuAction.swift */; };
-		1E7084918590A09E22A1FE6A02BD2E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1F3D4B2EB9CBA7C660ECCA7B9CB91FD2 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1198F2EA54B3159AA45654BE96AB3755 /* Empty.swift */; };
+		0885CF0059876F95C9F780AFDDA65904 /* AlertMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0979E952D6FA2D518CD460B3DFB9A91 /* AlertMenu-dummy.m */; };
 		22A522D2AEFC0F0355C2CF6BF0B209DB /* Pods-AlertMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE38D8662CAF2B6F632B55DB518E2573 /* Pods-AlertMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C248B798B344EF009AF0C5BA4641227 /* Localization.strings in Sources */ = {isa = PBXBuildFile; fileRef = D3A251FA0171BBB2FB540FF25FD9BD0E /* Localization.strings */; };
 		2FF718AA7323179608FB540041E6C170 /* Pods-AlertMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104403967535FC665D687B96DDE657 /* Pods-AlertMenu_Example-dummy.m */; };
-		34AA93467EC9F90D9C8375F5F7453B0C /* AlertMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF1A063B5B92951650CD9FEB69E1DDD /* AlertMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45B1847CE94899E1100793321C5BA58E /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ADA7A65B014E26E528336CE567CC7F2 /* Localization.strings */; };
-		559342627CED5D2AF8300870F31B7A20 /* AlertMenuPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA573BC4342F815B1F211C640FAFE44 /* AlertMenuPresentable.swift */; };
-		58B9A9E51366B301348D143FE72383EF /* AlertMenuLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8EDB3D9378239F1DCFF699C1E2EB4 /* AlertMenuLocalization.swift */; };
+		4EB03E8891C5113D149225B56F4CF06B /* AlertMenuPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA573BC4342F815B1F211C640FAFE44 /* AlertMenuPresentable.swift */; };
+		51902157095FF26548F6B3EE47EE9EB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F80350CDC93978D40A4FCCBB4A755ECC /* Localizable.strings */; };
+		6E11D29F6D0B7ED753474C6358CE227F /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 2A8666413EEAB5A300DC0F6395487315 /* Localizable.strings */; };
+		828BFFBF755818FFEDF9A27A5F44D9C5 /* UIAlertAction+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072EB46A1C0C457B1250C9E8B23D12 /* UIAlertAction+UIImage.swift */; };
 		834239B3C212CC13F801A38A2F5B02EE /* Pods-AlertMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8505F895F3FDEF6720CD077489AF3 /* Pods-AlertMenu_Tests-dummy.m */; };
-		83A454F41FEEF8C16B6B91489FC05D5E /* Localization.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7D04F0C72A98F54F5E0302F36FE9C91A /* Localization.strings */; };
+		852CCC87BF80120BD19DB44C28342F87 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1097B83F2425548262D0FB735B376EC2 /* Localizable.strings */; };
 		8DF976635EFE69D883E83C8576897D05 /* Pods-AlertMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0395F72E90B2E2F153248D785618AB75 /* Pods-AlertMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		946E69F41D4D4D111883B8DDE838965F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D16C5C1EA2DE2CD9D60F49C7AC9D0D13 /* AlertMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 068FF8CC7E67A4476EA99918B1D037FF /* AlertMenu.bundle */; };
-		DD9EA6EF3592C4FFF71566C46FD767D2 /* AlertMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F02660D301E6E5BF75D9E64FA635BB /* AlertMenu.swift */; };
-		DE0823E76AAA5150EBA0A0C455233DE5 /* AlertMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9CA820FA47C9E74210E405059B06A3 /* AlertMenu-dummy.m */; };
+		94F7373FBD9C015C1D8865AF2C7BC99F /* AlertMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 479E9562DB7FEA42840351DB5E37C155 /* AlertMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EAD4EAD70C73AA27105ECB7A0244C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B8B850D4EF8178218132951C27598A1A /* AlertMenuLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE0CB286BE1A544070E5AEAC2F7D7C /* AlertMenuLocalization.swift */; };
+		D5FC6CAA99657FB82FD7D9F2BD4B4EB2 /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83720B84006AF1F67061DAD2F851CC48 /* Localization.bundle */; };
+		E96352938BA33EE416CBB0E7681FFC6C /* AlertMenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E318B94B713308F6C2EF55E4B0BEA /* AlertMenuAction.swift */; };
 		EAB5694704879C34CF60BE4F5A4B5751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F8AE7E13234CB679727B2084F136582B /* UIAlertAction+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072EB46A1C0C457B1250C9E8B23D12 /* UIAlertAction+UIImage.swift */; };
+		FC2CA14E3579491BBD5A8550F4239368 /* AlertMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F02660D301E6E5BF75D9E64FA635BB /* AlertMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		027571B94DCF23F4E9F1CB22B14F9834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E93B75D63FD7A94A7F80F28A92064E;
+			remoteInfo = "AlertMenu-Localization";
+		};
 		259F63E628C95E52692D67036D00ACEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2B5E4E31EB31460406D9B19890473E0C;
 			remoteInfo = AlertMenu;
-		};
-		8F35AC003E1483553942E2ED7D6A8737 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A14B51A503EA92E26F642AAF096CEE26;
-			remoteInfo = "AlertMenu-AlertMenu";
 		};
 		D614F47673E6402EFA8185EC949D4897 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,58 +53,49 @@
 
 /* Begin PBXFileReference section */
 		0395F72E90B2E2F153248D785618AB75 /* Pods-AlertMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlertMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
-		068FF8CC7E67A4476EA99918B1D037FF /* AlertMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1097B83F2425548262D0FB735B376EC2 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11104403967535FC665D687B96DDE657 /* Pods-AlertMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlertMenu_Example-dummy.m"; sourceTree = "<group>"; };
-		1198F2EA54B3159AA45654BE96AB3755 /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = AlertMenu/Empty.swift; sourceTree = "<group>"; };
 		2325F359B47C3A881B435447A4DEF892 /* Pods-AlertMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertMenu_Tests-Info.plist"; sourceTree = "<group>"; };
 		293E318B94B713308F6C2EF55E4B0BEA /* AlertMenuAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertMenuAction.swift; path = AlertMenu/AlertMenuAction.swift; sourceTree = "<group>"; };
+		2A8666413EEAB5A300DC0F6395487315 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2DC6130CF962272C2341D95785AC2B6C /* AlertMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertMenu-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43AF1E11C472CEF173ECF0881B541066 /* AlertMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlertMenu-Info.plist"; sourceTree = "<group>"; };
 		456D198F8B52513EC866D214F4804602 /* Pods-AlertMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		479E9562DB7FEA42840351DB5E37C155 /* AlertMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertMenu-umbrella.h"; sourceTree = "<group>"; };
 		4A9928BCA99D3297EAAD88CCCD69F130 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4DF1A063B5B92951650CD9FEB69E1DDD /* AlertMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertMenu-umbrella.h"; sourceTree = "<group>"; };
+		4DFA165160CE55A816DAD2F975E106FE /* AlertMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlertMenu-Info.plist"; sourceTree = "<group>"; };
 		59EFBFBCDB1781D2A458CD94E224F7C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5DA573BC4342F815B1F211C640FAFE44 /* AlertMenuPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertMenuPresentable.swift; path = AlertMenu/AlertMenuPresentable.swift; sourceTree = "<group>"; };
 		6AA0A391BBC9CEAC2D1F47D3015E62FC /* Pods_AlertMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF523C5296CFC6FFFBF96E6A31BE098 /* Pods-AlertMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlertMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		6D6434D661A03425D003622F8327084D /* Pods-AlertMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlertMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70DB76C6994752364A4D5C7BBA3D4B98 /* Pods-AlertMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlertMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D04F0C72A98F54F5E0302F36FE9C91A /* Localization.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localization.strings; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
-		89E7B3E517598E83C02FBA2D5679A705 /* AlertMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertMenu-prefix.pch"; sourceTree = "<group>"; };
+		73686260356A828EBBBAF7F4932AB677 /* AlertMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertMenu.modulemap; sourceTree = "<group>"; };
+		83720B84006AF1F67061DAD2F851CC48 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E072EB46A1C0C457B1250C9E8B23D12 /* UIAlertAction+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+UIImage.swift"; path = "AlertMenu/UIAlertAction+UIImage.swift"; sourceTree = "<group>"; };
+		93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertMenu.xcconfig; sourceTree = "<group>"; };
 		97107018ED3AC78060BA33FFC49ABFB2 /* Pods-AlertMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9711D832C62DFCC4B58B593D4FE8A0DA /* Pods-AlertMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		97BA033E3ECF35167090D353D8DCDD60 /* Pods-AlertMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9AF6F8BF43BF90D1279E4B3B26EB7B81 /* Pods-AlertMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertMenu_Example-Info.plist"; sourceTree = "<group>"; };
-		9B9CA820FA47C9E74210E405059B06A3 /* AlertMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertMenu-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0F1FDCD24CCE92135E881B397D91F49 /* AlertMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07E81AFABA6A73D64B2B04744C1D0A0 /* ResourceBundle-Localization-AlertMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-AlertMenu-Info.plist"; sourceTree = "<group>"; };
 		B222FAA2A6472FBA9CD24F009AFA0B13 /* Pods-AlertMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlertMenu_Example.modulemap"; sourceTree = "<group>"; };
 		B32645C8CC29ED2F5DBACAF1ACED758C /* Pods-AlertMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B364422056398C61F53CDF6C5A7164D2 /* AlertMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertMenu.modulemap; sourceTree = "<group>"; };
 		BED8505F895F3FDEF6720CD077489AF3 /* Pods-AlertMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlertMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertMenu.xcconfig; sourceTree = "<group>"; };
+		CDCE0CB286BE1A544070E5AEAC2F7D7C /* AlertMenuLocalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMenuLocalization.swift; sourceTree = "<group>"; };
 		D1F02660D301E6E5BF75D9E64FA635BB /* AlertMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertMenu.swift; path = AlertMenu/AlertMenu.swift; sourceTree = "<group>"; };
-		D3A251FA0171BBB2FB540FF25FD9BD0E /* Localization.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localization.strings; path = ru.lproj/Localization.strings; sourceTree = "<group>"; };
 		D4F79260E3CD7AB7651718DC861227AC /* Pods-AlertMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlertMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E0979E952D6FA2D518CD460B3DFB9A91 /* AlertMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertMenu-dummy.m"; sourceTree = "<group>"; };
 		E1F8B81F3D35BD27C6EE1B742E5A5A07 /* AlertMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlertMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6D00D7E19321AB68099FD68102624FD /* Pods_AlertMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78853EB159AC9B19A189600C5A200B8 /* ResourceBundle-AlertMenu-AlertMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AlertMenu-AlertMenu-Info.plist"; sourceTree = "<group>"; };
 		F5BCEDD49DCF39416F37C5896C573A84 /* Pods-AlertMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE38D8662CAF2B6F632B55DB518E2573 /* Pods-AlertMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlertMenu_Example-umbrella.h"; sourceTree = "<group>"; };
-		FFC8EDB3D9378239F1DCFF699C1E2EB4 /* AlertMenuLocalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMenuLocalization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4780B11EBB49C4498DBF04681BE36D8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E7084918590A09E22A1FE6A02BD2E15 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		814D1C030C1827E358327FEBE6F62BFE /* Frameworks */ = {
+		742D7FCE924CA318143D7645ABD4DFD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -120,6 +110,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE50EED1CE498231691806E76AE49E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EAD4EAD70C73AA27105ECB7A0244C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E30782394AE73AE1B106B2A7178DAFB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,30 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0695E7BD215F1CD838BBF6D81A993E37 /* Support Files */ = {
+		15C10807CB1D61B769B7E21C97ECE13A /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				B364422056398C61F53CDF6C5A7164D2 /* AlertMenu.modulemap */,
-				CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */,
-				9B9CA820FA47C9E74210E405059B06A3 /* AlertMenu-dummy.m */,
-				43AF1E11C472CEF173ECF0881B541066 /* AlertMenu-Info.plist */,
-				89E7B3E517598E83C02FBA2D5679A705 /* AlertMenu-prefix.pch */,
-				4DF1A063B5B92951650CD9FEB69E1DDD /* AlertMenu-umbrella.h */,
-				E78853EB159AC9B19A189600C5A200B8 /* ResourceBundle-AlertMenu-AlertMenu-Info.plist */,
+				CDCE0CB286BE1A544070E5AEAC2F7D7C /* AlertMenuLocalization.swift */,
+				F80350CDC93978D40A4FCCBB4A755ECC /* Localizable.strings */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AlertMenu";
-			sourceTree = "<group>";
-		};
-		181F291ADD9DA2E6171F0CEA284D7FA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				068FF8CC7E67A4476EA99918B1D037FF /* AlertMenu.bundle */,
-				A0F1FDCD24CCE92135E881B397D91F49 /* AlertMenu.framework */,
-				E6D00D7E19321AB68099FD68102624FD /* Pods_AlertMenu_Example.framework */,
-				6AA0A391BBC9CEAC2D1F47D3015E62FC /* Pods_AlertMenu_Tests.framework */,
-			);
-			name = Products;
+			name = Localization;
+			path = AlertMenu/Localization;
 			sourceTree = "<group>";
 		};
 		18987FAFED561CFFEA47FC9F756138A6 /* Targets Support Files */ = {
@@ -192,14 +174,19 @@
 			path = "Target Support Files/Pods-AlertMenu_Tests";
 			sourceTree = "<group>";
 		};
-		7BA83531638D4B5264ED26D373A5A9E6 /* Localization */ = {
+		6E5D7115778C90EBFAD57A034FA930C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFC8EDB3D9378239F1DCFF699C1E2EB4 /* AlertMenuLocalization.swift */,
-				0ADA7A65B014E26E528336CE567CC7F2 /* Localization.strings */,
+				73686260356A828EBBBAF7F4932AB677 /* AlertMenu.modulemap */,
+				93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */,
+				E0979E952D6FA2D518CD460B3DFB9A91 /* AlertMenu-dummy.m */,
+				4DFA165160CE55A816DAD2F975E106FE /* AlertMenu-Info.plist */,
+				2DC6130CF962272C2341D95785AC2B6C /* AlertMenu-prefix.pch */,
+				479E9562DB7FEA42840351DB5E37C155 /* AlertMenu-umbrella.h */,
+				B07E81AFABA6A73D64B2B04744C1D0A0 /* ResourceBundle-Localization-AlertMenu-Info.plist */,
 			);
-			name = Localization;
-			path = AlertMenu/Localization;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AlertMenu";
 			sourceTree = "<group>";
 		};
 		7D49D846A8878D84A3470B4C974D367A /* Development Pods */ = {
@@ -225,18 +212,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C71EC977B86C936D908253FD131E5BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1FDCD24CCE92135E881B397D91F49 /* AlertMenu.framework */,
+				83720B84006AF1F67061DAD2F851CC48 /* Localization.bundle */,
+				E6D00D7E19321AB68099FD68102624FD /* Pods_AlertMenu_Example.framework */,
+				6AA0A391BBC9CEAC2D1F47D3015E62FC /* Pods_AlertMenu_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CB769D445BB18A95D876A76DD89D7BA9 /* AlertMenu */ = {
 			isa = PBXGroup;
 			children = (
 				D1F02660D301E6E5BF75D9E64FA635BB /* AlertMenu.swift */,
 				293E318B94B713308F6C2EF55E4B0BEA /* AlertMenuAction.swift */,
 				5DA573BC4342F815B1F211C640FAFE44 /* AlertMenuPresentable.swift */,
-				1198F2EA54B3159AA45654BE96AB3755 /* Empty.swift */,
 				8E072EB46A1C0C457B1250C9E8B23D12 /* UIAlertAction+UIImage.swift */,
-				7BA83531638D4B5264ED26D373A5A9E6 /* Localization */,
+				15C10807CB1D61B769B7E21C97ECE13A /* Localization */,
 				432A3E718C1E9567B0084696674557BF /* Pod */,
 				ABB243C65F84446FB8046D81A6FF62AD /* Resources */,
-				0695E7BD215F1CD838BBF6D81A993E37 /* Support Files */,
+				6E5D7115778C90EBFAD57A034FA930C6 /* Support Files */,
 			);
 			name = AlertMenu;
 			path = ../..;
@@ -248,7 +245,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7D49D846A8878D84A3470B4C974D367A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				181F291ADD9DA2E6171F0CEA284D7FA9 /* Products */,
+				C71EC977B86C936D908253FD131E5BFE /* Products */,
 				18987FAFED561CFFEA47FC9F756138A6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -281,14 +278,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B01C7AB91DEEAA9EE86EEB1AE90EA85 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34AA93467EC9F90D9C8375F5F7453B0C /* AlertMenu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CE9E87ECCDF1EE6EA567FC5AB1BAE40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +291,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF976635EFE69D883E83C8576897D05 /* Pods-AlertMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6E874EF98E75CD3AC406A49CFB844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F7373FBD9C015C1D8865AF2C7BC99F /* AlertMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,38 +326,38 @@
 		};
 		2B5E4E31EB31460406D9B19890473E0C /* AlertMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6562086ADB8F29EB47D5BA01A4F7153 /* Build configuration list for PBXNativeTarget "AlertMenu" */;
+			buildConfigurationList = F857FC2C63C24AC2736C72AC9B9009B7 /* Build configuration list for PBXNativeTarget "AlertMenu" */;
 			buildPhases = (
-				3B01C7AB91DEEAA9EE86EEB1AE90EA85 /* Headers */,
-				9C1120CE83DB26D6F199E652EB8CB7BA /* Sources */,
-				4780B11EBB49C4498DBF04681BE36D8F /* Frameworks */,
-				66C5A8F7C81AC17A3404E62CCF35223F /* Resources */,
+				F3B6E874EF98E75CD3AC406A49CFB844 /* Headers */,
+				42EB2BA360EDB01E5496D9459166CD66 /* Sources */,
+				AE50EED1CE498231691806E76AE49E7A /* Frameworks */,
+				C92A6B36CC962D0428015B33CBF289D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6CFBB874471AFCE2E6E20D2138338B67 /* PBXTargetDependency */,
+				3F7FBE348F216244E829B2D2BDEFC4E2 /* PBXTargetDependency */,
 			);
 			name = AlertMenu;
 			productName = AlertMenu;
 			productReference = A0F1FDCD24CCE92135E881B397D91F49 /* AlertMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A14B51A503EA92E26F642AAF096CEE26 /* AlertMenu-AlertMenu */ = {
+		76E93B75D63FD7A94A7F80F28A92064E /* AlertMenu-Localization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCFA358F7287F93B9E35FDE80479CEDC /* Build configuration list for PBXNativeTarget "AlertMenu-AlertMenu" */;
+			buildConfigurationList = 9E1B10C6B7192B821CDDC91D6AAA5108 /* Build configuration list for PBXNativeTarget "AlertMenu-Localization" */;
 			buildPhases = (
-				88A6A97E2A51816609A326C709AA8D42 /* Sources */,
-				814D1C030C1827E358327FEBE6F62BFE /* Frameworks */,
-				0353C07C961F8C182A5D13346EE8C24E /* Resources */,
+				637DCE099833952A17FC5C1D09271515 /* Sources */,
+				742D7FCE924CA318143D7645ABD4DFD5 /* Frameworks */,
+				EAAFB4931BA163F7D05E40FDA46912F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AlertMenu-AlertMenu";
-			productName = "AlertMenu-AlertMenu";
-			productReference = 068FF8CC7E67A4476EA99918B1D037FF /* AlertMenu.bundle */;
+			name = "AlertMenu-Localization";
+			productName = "AlertMenu-Localization";
+			productReference = 83720B84006AF1F67061DAD2F851CC48 /* Localization.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		ACDB7AA076973FE5362B90B34CC46788 /* Pods-AlertMenu_Example */ = {
@@ -401,12 +398,12 @@
 				ru,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 181F291ADD9DA2E6171F0CEA284D7FA9 /* Products */;
+			productRefGroup = C71EC977B86C936D908253FD131E5BFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2B5E4E31EB31460406D9B19890473E0C /* AlertMenu */,
-				A14B51A503EA92E26F642AAF096CEE26 /* AlertMenu-AlertMenu */,
+				76E93B75D63FD7A94A7F80F28A92064E /* AlertMenu-Localization */,
 				ACDB7AA076973FE5362B90B34CC46788 /* Pods-AlertMenu_Example */,
 				207BB14D0C5E09845AFE9CFD4D86A837 /* Pods-AlertMenu_Tests */,
 			);
@@ -414,14 +411,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0353C07C961F8C182A5D13346EE8C24E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45B1847CE94899E1100793321C5BA58E /* Localization.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0B37C237C1FAFE21326CCD594359272F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,11 +418,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66C5A8F7C81AC17A3404E62CCF35223F /* Resources */ = {
+		C92A6B36CC962D0428015B33CBF289D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16C5C1EA2DE2CD9D60F49C7AC9D0D13 /* AlertMenu.bundle in Resources */,
+				D5FC6CAA99657FB82FD7D9F2BD4B4EB2 /* Localization.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,9 +433,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAAFB4931BA163F7D05E40FDA46912F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51902157095FF26548F6B3EE47EE9EB0 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42EB2BA360EDB01E5496D9459166CD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0885CF0059876F95C9F780AFDDA65904 /* AlertMenu-dummy.m in Sources */,
+				FC2CA14E3579491BBD5A8550F4239368 /* AlertMenu.swift in Sources */,
+				E96352938BA33EE416CBB0E7681FFC6C /* AlertMenuAction.swift in Sources */,
+				B8B850D4EF8178218132951C27598A1A /* AlertMenuLocalization.swift in Sources */,
+				4EB03E8891C5113D149225B56F4CF06B /* AlertMenuPresentable.swift in Sources */,
+				6E11D29F6D0B7ED753474C6358CE227F /* Localizable.strings in Sources */,
+				852CCC87BF80120BD19DB44C28342F87 /* Localizable.strings in Sources */,
+				828BFFBF755818FFEDF9A27A5F44D9C5 /* UIAlertAction+UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637DCE099833952A17FC5C1D09271515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D48BA457B0227FF516641F473BE4238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,37 +482,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88A6A97E2A51816609A326C709AA8D42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C1120CE83DB26D6F199E652EB8CB7BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE0823E76AAA5150EBA0A0C455233DE5 /* AlertMenu-dummy.m in Sources */,
-				DD9EA6EF3592C4FFF71566C46FD767D2 /* AlertMenu.swift in Sources */,
-				0453C8213B5F69926C2CC6855E5B4B35 /* AlertMenuAction.swift in Sources */,
-				58B9A9E51366B301348D143FE72383EF /* AlertMenuLocalization.swift in Sources */,
-				559342627CED5D2AF8300870F31B7A20 /* AlertMenuPresentable.swift in Sources */,
-				1F3D4B2EB9CBA7C660ECCA7B9CB91FD2 /* Empty.swift in Sources */,
-				83A454F41FEEF8C16B6B91489FC05D5E /* Localization.strings in Sources */,
-				2C248B798B344EF009AF0C5BA4641227 /* Localization.strings in Sources */,
-				F8AE7E13234CB679727B2084F136582B /* UIAlertAction+UIImage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6CFBB874471AFCE2E6E20D2138338B67 /* PBXTargetDependency */ = {
+		3F7FBE348F216244E829B2D2BDEFC4E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "AlertMenu-AlertMenu";
-			target = A14B51A503EA92E26F642AAF096CEE26 /* AlertMenu-AlertMenu */;
-			targetProxy = 8F35AC003E1483553942E2ED7D6A8737 /* PBXContainerItemProxy */;
+			name = "AlertMenu-Localization";
+			target = 76E93B75D63FD7A94A7F80F28A92064E /* AlertMenu-Localization */;
+			targetProxy = 027571B94DCF23F4E9F1CB22B14F9834 /* PBXContainerItemProxy */;
 		};
 		7352E18412552A1141273B2B4701F8E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -510,52 +506,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0ADA7A65B014E26E528336CE567CC7F2 /* Localization.strings */ = {
+		F80350CDC93978D40A4FCCBB4A755ECC /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D04F0C72A98F54F5E0302F36FE9C91A /* Localization.strings */,
-				D3A251FA0171BBB2FB540FF25FD9BD0E /* Localization.strings */,
+				2A8666413EEAB5A300DC0F6395487315 /* Localizable.strings */,
+				1097B83F2425548262D0FB735B376EC2 /* Localizable.strings */,
 			);
-			name = Localization.strings;
+			name = Localizable.strings;
 			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		166C0CD5AABD22AD83C0AF5E6B2B8E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlertMenu/AlertMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlertMenu/AlertMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlertMenu/AlertMenu.modulemap";
-				PRODUCT_MODULE_NAME = AlertMenu;
-				PRODUCT_NAME = AlertMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1AA4BEC62986856F5B559D2451F5BA0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 456D198F8B52513EC866D214F4804602 /* Pods-AlertMenu_Example.debug.xcconfig */;
@@ -685,33 +648,16 @@
 			};
 			name = Debug;
 		};
-		34902A5A360B0FBCC28A16F31C8BBD09 /* Release */ = {
+		55A88942CD038B360501FE009A7BE656 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */;
+			baseConfigurationReference = 93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AlertMenu";
 				IBSC_MODULE = AlertMenu;
-				INFOPLIST_FILE = "Target Support Files/AlertMenu/ResourceBundle-AlertMenu-AlertMenu-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/AlertMenu/ResourceBundle-Localization-AlertMenu-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = AlertMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		96DD7DCEAB57FD5224409CCFBEDFCBB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AlertMenu";
-				IBSC_MODULE = AlertMenu;
-				INFOPLIST_FILE = "Target Support Files/AlertMenu/ResourceBundle-AlertMenu-AlertMenu-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = AlertMenu;
+				PRODUCT_NAME = Localization;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -755,6 +701,40 @@
 			};
 			name = Release;
 		};
+		AA226F6C3A76C68903632A9A690C267A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertMenu/AlertMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertMenu/AlertMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlertMenu/AlertMenu.modulemap";
+				PRODUCT_MODULE_NAME = AlertMenu;
+				PRODUCT_NAME = AlertMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B73139EBED1A1CC39597F937FE8582B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97107018ED3AC78060BA33FFC49ABFB2 /* Pods-AlertMenu_Example.release.xcconfig */;
@@ -784,40 +764,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CCA6D3582BD6962DD93B3D6BC71FD93F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA2B23BB1D36CF38968A2D6AC0F74F4 /* AlertMenu.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlertMenu/AlertMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlertMenu/AlertMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlertMenu/AlertMenu.modulemap";
-				PRODUCT_MODULE_NAME = AlertMenu;
-				PRODUCT_NAME = AlertMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -889,6 +835,56 @@
 			};
 			name = Debug;
 		};
+		F97A19477E6C8FC162B171908192BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertMenu/AlertMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertMenu/AlertMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlertMenu/AlertMenu.modulemap";
+				PRODUCT_MODULE_NAME = AlertMenu;
+				PRODUCT_NAME = AlertMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9E47BC8B685E564DA6AFB4570ECD1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F294E65B5338B0DD4B60288C3455B0 /* AlertMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AlertMenu";
+				IBSC_MODULE = AlertMenu;
+				INFOPLIST_FILE = "Target Support Files/AlertMenu/ResourceBundle-Localization-AlertMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -910,11 +906,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCFA358F7287F93B9E35FDE80479CEDC /* Build configuration list for PBXNativeTarget "AlertMenu-AlertMenu" */ = {
+		9E1B10C6B7192B821CDDC91D6AAA5108 /* Build configuration list for PBXNativeTarget "AlertMenu-Localization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96DD7DCEAB57FD5224409CCFBEDFCBB5 /* Debug */,
-				34902A5A360B0FBCC28A16F31C8BBD09 /* Release */,
+				55A88942CD038B360501FE009A7BE656 /* Debug */,
+				F9E47BC8B685E564DA6AFB4570ECD1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -928,11 +924,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6562086ADB8F29EB47D5BA01A4F7153 /* Build configuration list for PBXNativeTarget "AlertMenu" */ = {
+		F857FC2C63C24AC2736C72AC9B9009B7 /* Build configuration list for PBXNativeTarget "AlertMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166C0CD5AABD22AD83C0AF5E6B2B8E26 /* Debug */,
-				CCA6D3582BD6962DD93B3D6BC71FD93F /* Release */,
+				F97A19477E6C8FC162B171908192BAEA /* Debug */,
+				AA226F6C3A76C68903632A9A690C267A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -47,30 +47,30 @@ open class AlertMenu<Action: AlertMenuAction>: UIAlertController {
 // Store
 public extension AlertMenu {
     
-    static func defaultAlert(_ action: AlertMenuActionDefault, title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        let alert = AlertMenu<AlertMenuActionDefault>(title: title, message: message, preferredStyle: .alert, actions: [action], withCancel: false)
+    static func defaultAlert(_ action: AlertMenuActionDefault, title: String?, message: String?, withCancel: Bool, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        let alert = AlertMenu<AlertMenuActionDefault>(title: title, message: message, preferredStyle: .alert, actions: [action], withCancel: withCancel)
         alert.didTapActionAny = handler
         return alert
     }
     
-    static func okAlert(title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        .defaultAlert(.ok, title: title, message: message, handler: handler)
+    static func okAlert(title: String?, message: String?, withCancel: Bool = false, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        .defaultAlert(.ok, title: title, message: message, withCancel: withCancel, handler: handler)
     }
     
-    static func confirmAlert(title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        .defaultAlert(.confirm, title: title, message: message, handler: handler)
+    static func confirmAlert(title: String?, message: String?, withCancel: Bool = false,  handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        .defaultAlert(.confirm, title: title, message: message, withCancel: withCancel, handler: handler)
     }
     
-    static func refreshAlert(title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        .defaultAlert(.refresh, title: title, message: message, handler: handler)
+    static func refreshAlert(title: String?, message: String?, withCancel: Bool = false,  handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        .defaultAlert(.refresh, title: title, message: message, withCancel: withCancel, handler: handler)
     }
     
-    static func proceedAlert(title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        .defaultAlert(.proceed, title: title, message: message, handler: handler)
+    static func proceedAlert(title: String?, message: String?, withCancel: Bool = false,  handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        .defaultAlert(.proceed, title: title, message: message, withCancel: withCancel, handler: handler)
     }
     
-    static func backAlert(title: String?, message: String?, handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
-        .defaultAlert(.back, title: title, message: message, handler: handler)
+    static func backAlert(title: String?, message: String?, withCancel: Bool = false,  handler: (() -> Void)? = nil) -> AlertMenu<AlertMenuActionDefault> {
+        .defaultAlert(.back, title: title, message: message, withCancel: withCancel, handler: handler)
     }
     
 }
