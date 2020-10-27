@@ -4,6 +4,9 @@ import UIKit
 open class AlertMenu<Action: AlertMenuAction>: UIAlertController {
     
     // Props
+    private(set) var menuActions: [Action] = []
+    private(set) var withCancel: Bool = false
+    
     public var didTapAction: ((Action) -> Void)?
     public var didTapActionAny: (() -> Void)?
     public var didTapCancel: (() -> Void)?
@@ -15,22 +18,26 @@ open class AlertMenu<Action: AlertMenuAction>: UIAlertController {
     // Lifecycle
     public convenience init(title: String?, message: String?, preferredStyle: UIAlertController.Style, actions: [Action], withCancel: Bool) {
         self.init(title: title, message: message, preferredStyle: preferredStyle)
-        
-        actions.forEach({ action in
-            self.addAction(action, handler: { [weak self] _ in
+        self.menuActions = actions
+        self.withCancel = withCancel
+    }
+
+    // Methods
+    open func setupMenuActions() {
+        self.menuActions.forEach({ action in
+            self.addMenuAction(action, handler: { [weak self] _ in
                 self?.didTapAction?(action)
                 self?.didTapActionAny?()
             })
         })
         
-        guard withCancel else { return }
-        self.addAction(AlertMenuActionDefault.cancel) { [weak self] _ in
+        guard self.withCancel else { return }
+        self.addMenuAction(AlertMenuActionDefault.cancel) { [weak self] _ in
             self?.didTapCancel?()
         }
     }
-
-    // Methods
-    open func addAction(_ action: AlertMenuAction, handler: ((UIAlertAction) -> Void)?) {
+    
+    open func addMenuAction(_ action: AlertMenuAction, handler: ((UIAlertAction) -> Void)?) {
         var dynamicImage: UIImage?
         if let action = action as? Action {
             dynamicImage = self.didSetDynamicImage?(action)
@@ -39,6 +46,7 @@ open class AlertMenu<Action: AlertMenuAction>: UIAlertController {
     }
     
     open func present() {
+        self.setupMenuActions()
         self.viewController?.present(self, animated: true, completion: self.presentCompletion)
     }
     
